@@ -1,0 +1,12 @@
+{
+  "name": "concierge-dashboard-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "check": "node --check src/main.js",
+    "serve": "python3 -m http.server 4173",
+    "start": "npm run serve",
+    "dev": "npm run serve",
+    "preview": "npm run serve"
+  }
+}
